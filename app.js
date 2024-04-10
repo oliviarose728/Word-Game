@@ -14,6 +14,10 @@ slots.forEach(element => {
     element.addEventListener("touchend", touchEnd); // Touch event for drop
 })
 
+resetButton.addEventListener("touchstart", function(event) {
+    event.preventDefault();
+});
+
 resetButton.addEventListener("click", reset);
 
 function dragStart(event) {
