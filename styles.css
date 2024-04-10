@@ -1,0 +1,102 @@
+body{
+    padding-top: 100px;
+    display: inline-flex;
+    background-color: lightblue;
+    margin: auto;
+    flex-direction: column;
+}
+
+#word_grid{
+    display: block;
+    justify-content: center;
+    margin: auto; 
+    margin-right: 0;
+ 
+}
+
+#top{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.slot{
+    padding: 0px;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    float: left;
+    border: 2px solid darkgray;
+}
+
+#resetButton{
+
+    margin: auto;
+    margin-left: 10px;
+}
+
+#resetButton img{
+    margin: auto;
+    width: 100px;
+    display:flex;
+}
+
+#resetButton img:hover{
+    cursor: pointer;
+    filter:drop-shadow( 5px 5px 5px rgba(0, 0, 0, .5));
+}
+
+.letter{
+    font-size: 25px;
+    font-family:'Comic Sans Ms';
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    border: 3px solid lightgray;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.letter:hover{
+
+    border: white;
+}
+
+
+#letter_grid{
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.dragged{
+    height: 100px;
+    width: 100px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px;
+    margin: auto;
+    border: none;
+}
+
+.gridletterimg{
+    margin: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+.letterimg{
+
+    margin: auto;
+    width: 90%;
+    object-fit: contain;
+    
+ 
+}
