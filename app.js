@@ -29,6 +29,7 @@ function slotTouchStart(event){
     const sourceImg = document.getElementById(sourceID).querySelector('img');
     const src = sourceImg.src;
     event.target.insertAdjacentHTML("afterbegin", `<div class="letter dragged" id="${sourceID}"><img src="${src}" class="gridletterimg"></div>`);
+    touchedElementId = null;
 }
 
 function dragStart(event){

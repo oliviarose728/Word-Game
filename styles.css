@@ -62,10 +62,13 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
-.letter:hover{
 
-    border: white;
+
+.letter:hover, .letter:active{
+
+    border: 3px solid white;
 }
+
 
 
 #letter_grid{
