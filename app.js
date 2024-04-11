@@ -20,6 +20,7 @@ resetButton.addEventListener("click", reset);
 function letterTouchStart(event){
     touchedElementId = event.currentTarget.id;
 }
+//hello
 
 function slotTouchStart(event){
 
