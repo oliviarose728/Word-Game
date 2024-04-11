@@ -18,8 +18,6 @@ slots.forEach(element =>{
 resetButton.addEventListener("click", reset);
 
 function letterTouchStart(event){
-
-    console.log("Letter touched:", event.currentTarget.id);
     touchedElementId = event.currentTarget.id;
 }
 
